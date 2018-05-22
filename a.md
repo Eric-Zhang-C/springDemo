@@ -91,20 +91,7 @@ Commit message: "Initial commit"
 [SCP] uploading file: '/opt/deploy/deploy.tar.gz'
 Finished: SUCCESS
 ```
-####远程分发
 
-* 打包上传（利用scp插件，以证书方式连接到远程服务器）
-* Jenkins’s console output:
-
-```
-[spring-boot-demp] $ /bin/bash -xe /tmp/jenkins473632326594019983.sh
-+ cd /home/bian/.jenkins/workspace/spring-boot-demp
-+ cd target
-+ tar zcf deploy.tar.gz simple_java-0.1.0.jar
-[SCP] Connecting to deploy
-[SCP] uploading file: '/opt/deploy/deploy.tar.gz'
-Finished: SUCCESS
-```
 
 ####远程启动
 
